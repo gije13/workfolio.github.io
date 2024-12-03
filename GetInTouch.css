@@ -1,0 +1,131 @@
+
+    
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(5, 5, 5); 
+    background-color: #000;  
+    min-height: 100vh;  
+    padding-top: 20px; 
+  
+}
+
+
+.GetInTouch-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-items: center; 
+    align-items: center; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    min-height: 100vh;  
+    margin-bottom: 50px;
+}
+
+
+
+.GetInTouch-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fdf6f6;
+    margin-bottom: 30px;
+}
+
+.GetInTouch-info p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 20px;
+    color: #fdf6f6;
+    
+}
+
+
+
+.GIT-info {
+    background-color: rgba(176, 168, 148, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    color: #000;
+    
+}
+
+.GetInTouch-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.GetInTouch-info ul li {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.GetInTouch-form {
+    background-color: rgba(180, 174, 158, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.GetInTouch-form input,
+.GetInTouch-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.GetInTouch-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fdf6f6;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.GetInTouch-form button:hover {
+    background-color: #252829;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .GetInTouch-container {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+   
+
+    .GetInTouch-form {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+}
